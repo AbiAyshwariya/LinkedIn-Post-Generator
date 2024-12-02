@@ -8,6 +8,7 @@ transformers==4.28.1
 numpy==1.23.4
 pandas==1.5.3
 flask==2.2.3
--e ./llm_helper   
--e ./post_generator 
--e ./few_shot      
+-e ./llm_helper.py   
+-e ./post_generator.py
+-e ./few_shots.py
+
