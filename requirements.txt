@@ -4,7 +4,8 @@ langchain-core==0.2.39
 langchain-community==0.2.12
 langchain_groq==0.1.9
 pandas==2.0.2
--e ./llm_helper.py   
--e ./post_generator.py
--e ./few_shots.py
+python-dotenv==1.0.1
+-e ./llm_helper  
+-e ./post_generator
+-e ./few_shots
 
